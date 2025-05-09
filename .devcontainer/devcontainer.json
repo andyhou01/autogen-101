@@ -1,0 +1,26 @@
+{
+  "name": "AutoGen 101",
+  "dockerFile": "Dockerfile",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.formatting.provider": "black",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.organizeImports": true
+        }
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.black-formatter",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  },
+  "postCreateCommand": "uv venv && echo 'source .venv/bin/activate' >> ~/.bashrc && uv sync",
+  "remoteEnv": {
+    "PYTHONPATH": "${workspaceFolder}"
+  }
+}
