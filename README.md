@@ -34,7 +34,7 @@ The quickest way to get started is to use the project devcontainer.
 
 1. Clone the repository to your local machine.
 
-2. Be sure to have uv installed. If you don't have it, you can install it by running `pip install uv` or refer to the [uv docs](https://docs.astral.sh/uv/getting-started/installation/) for other installation options.
+2. Be sure to have `uv` installed. If you don't have it, you can install it by running `pip install uv` or refer to the [uv docs](https://docs.astral.sh/uv/getting-started/installation/) for other installation options.
 
 3. Create a virtual environment and install the project dependencies by running `uv sync`.
 
