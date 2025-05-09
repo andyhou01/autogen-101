@@ -1,4 +1,4 @@
-## 🐳 Using Dev Container
+## 🐳 Use Dev Container to setup the environment
 
 1. Open this project in **VS Code**
 2. Make sure you have the **Remote - Containers** or **Dev Containers** extension installed
